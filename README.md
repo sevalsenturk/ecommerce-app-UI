@@ -32,19 +32,8 @@ cd frontend
 2. Bağımlılıkları yükleyin:
 ```bash
 npm install
-```
 
-3. Environment dosyasını oluşturun:
-```bash
-cp env.example .env
-```
-
-4. `.env` dosyasını düzenleyin:
-```env
-VITE_API_BASE_URL=http://localhost:5000
-```
-
-5. Geliştirme sunucusunu başlatın:
+3. Geliştirme sunucusunu başlatın:
 ```bash
 npm run dev
 ```
